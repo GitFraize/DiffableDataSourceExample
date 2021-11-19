@@ -18,6 +18,7 @@
 		B59B66F42747A3BB00D0CDB6 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B66F32747A3BB00D0CDB6 /* MainPresenter.swift */; };
 		B59B66F62747A3C400D0CDB6 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B66F52747A3C400D0CDB6 /* MainModel.swift */; };
 		B59B66F82747A42100D0CDB6 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B66F72747A42100D0CDB6 /* Builder.swift */; };
+		B59B66FB2747C07E00D0CDB6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B66FA2747C07E00D0CDB6 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B59B66F32747A3BB00D0CDB6 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		B59B66F52747A3C400D0CDB6 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
 		B59B66F72747A42100D0CDB6 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		B59B66FA2747C07E00D0CDB6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		B59B66EC2747A1AE00D0CDB6 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				B59B66F92747C06F00D0CDB6 /* Views */,
 				B59B66ED2747A1B700D0CDB6 /* Screen */,
 				B59B66F72747A42100D0CDB6 /* Builder.swift */,
 			);
@@ -147,6 +150,14 @@
 				B59B66F52747A3C400D0CDB6 /* MainModel.swift */,
 			);
 			path = Screen;
+			sourceTree = "<group>";
+		};
+		B59B66F92747C06F00D0CDB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B59B66FA2747C07E00D0CDB6 /* MainView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B59B66EF2747A1E300D0CDB6 /* MainViewController.swift in Sources */,
+				B59B66FB2747C07E00D0CDB6 /* MainView.swift in Sources */,
 				B59B66BD2747A17100D0CDB6 /* AppDelegate.swift in Sources */,
 				B59B66BF2747A17100D0CDB6 /* SceneDelegate.swift in Sources */,
 				B59B66F62747A3C400D0CDB6 /* MainModel.swift in Sources */,
