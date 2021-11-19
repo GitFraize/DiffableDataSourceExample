@@ -24,6 +24,7 @@ class MainViewController: UIViewController {
         
         view = contentView
         presenter.updateData()
+        addTargets()
     }
     
     @objc private func refresh() {
